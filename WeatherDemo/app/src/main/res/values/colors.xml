@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tv_white">#cfcdcd</color>
+    <color name="item_tv_color">#ee01ff</color>
+    <!-- 黑色60%透明度 -->
+    <color name="linkage_black_transparent_60">#99000000</color>
+    <!-- 黑色40%透明度 -->
+    <color name="linkage_black_transparent_40">#66000000</color>
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/fg1_layout"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/fg1_tv_updatetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="更新时间:08:00:00"
+        android:textColor="@color/tv_white"
+        android:textSize="20sp"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/cicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/fg1_iv_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/org4_widget_nw2"/>
+
+            <ImageView
+                android:id="@+id/fg1_iv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/org4_widget_nw0"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="℃ "
+                android:textColor="@color/tv_white"
+                android:textSize="35sp"/>
+
+            <TextView
+                android:id="@+id/fg1_tv_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="多云"
+                android:textColor="@color/tv_white"
+                android:textSize="35sp"/>
+
+            <!--<ImageButton-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_gravity="center_horizontal|bottom"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/fg1_ib_refresh"-->
+            <!--android:background="@null"-->
+            <!--android:src="@mipmap/feed_refresh"/>-->
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/fg1_tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="2016-06-16"
+                android:textColor="@color/tv_white"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/fg1_tv_moon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="五月十二"
+                android:textColor="@color/tv_white"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/fg1_tv_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="星期四"
+                android:textColor="@color/tv_white"
+                android:textSize="25sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/fg1_tv_low_high"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="18/31℃"
+                android:textColor="@color/tv_white"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/fg1_tv_wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="东南风4级"
+                android:textColor="@color/tv_white"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="湿度:32%"
+                android:id="@+id/fg1_tv_humidity"
+                android:textColor="@color/tv_white"
+                android:textSize="25sp"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/news_list_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
